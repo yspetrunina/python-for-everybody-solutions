@@ -14,3 +14,14 @@ while index >= 0:
     letter = fruit[index]
     print(letter)
     index -= 1                          # Update index
+
+'''I would like to add an alternative solution if it is ok.'''
+
+fruit = 'banana'
+backward_count=-1
+backward_len=-(len(fruit))
+
+while backward_count  >= backward_len:
+    letter = fruit [backward_count]
+    print (letter)
+    backward_count = backward_count - 1
